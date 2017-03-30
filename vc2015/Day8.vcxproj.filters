@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\QtNew\myProjects\Day8\displaywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\QtNew\myProjects\Day8\filterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\QtNew\myProjects\Day8\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\QtNew\myProjects\Day8\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\QtNew\myProjects\Day8\sourcewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\QtNew\myProjects\Day8\vc2015\Day8_autogen\moc_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\QtNew\myProjects\Day8\displaywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\QtNew\myProjects\Day8\filterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\QtNew\myProjects\Day8\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\QtNew\myProjects\Day8\sourcewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\QtNew\myProjects\Day8\vc2015\ui_displaywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\QtNew\myProjects\Day8\vc2015\ui_filterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\QtNew\myProjects\Day8\vc2015\ui_sourcewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\QtNew\myProjects\Day8\CMakeLists.txt" />
+    <CustomBuild Include="C:\QtNew\myProjects\Day8\displaywidget.ui" />
+    <CustomBuild Include="C:\QtNew\myProjects\Day8\filterwidget.ui" />
+    <CustomBuild Include="C:\QtNew\myProjects\Day8\sourcewidget.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B00A9905-80B7-3C4E-99B4-27A711BBB558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2F9FBB54-77D4-38AE-8B73-875699EDC3D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

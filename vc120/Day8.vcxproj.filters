@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\displaywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\filterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\sourcewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\Day8_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\displaywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\filterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\sourcewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\ui_displaywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\ui_filterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\ui_sourcewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\displaywidget.ui" />
+    <CustomBuild Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\filterwidget.ui" />
+    <CustomBuild Include="C:\Users\cplusplus\Desktop\projekte\qt\Day8\sourcewidget.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5C18BDF2-8698-43E4-9F38-F21320B62A44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0BAA6051-C324-46E8-B192-C1770D8264AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿Der Buildvorgang wurde am 29.03.2017 17:07:36 gestartet.
+     1>Projekt "C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\Day8.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/cplusplus/Desktop/projekte/qt/Day8/vc120/CMakeFiles/Day8_automoc.dir/ Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120 /IC:\Users\cplusplus\Desktop\projekte\qt\Day8 /IC:\Users\cplusplus\Desktop\projekte\qt\Day8\..\include /IC:\opencv_3_2\build\include /IC:\opencv_3_2\build\include\opencv /IC:\Qt\5.3\msvc2013_64\include /IC:\Qt\5.3\msvc2013_64\include\QtWidgets /IC:\Qt\5.3\msvc2013_64\include\QtGui /IC:\Qt\5.3\msvc2013_64\include\QtANGLE /IC:\Qt\5.3\msvc2013_64\include\QtCore /I"C:\Qt\5.3\msvc2013_64\mkspecs\win32-msvc2013" /IC:\Qt\5.3\msvc2013_64\include\QtSql /IC:\Qt\5.3\msvc2013_64\include\QtXml /IC:\Qt\5.3\msvc2013_64\include\QtXmlPatterns /IC:\Qt\5.3\msvc2013_64\include\QtNetwork /IC:\Qt\5.3\msvc2013_64\include\QtMultimedia /IC:\Qt\5.3\msvc2013_64\include\QtMultimediaWidgets /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_SQL_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /D QT_NETWORK_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Day8.dir\Debug\\" /Fd"Day8.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\cplusplus\Desktop\projekte\qt\Day8\main.cpp
+         main.cpp
+     1>c:\opencv_3_2\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): Siehe Deklaration von 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\Debug\Day8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Qt\5.3\msvc2013_64\lib\Qt5Sqld.lib C:\Qt\5.3\msvc2013_64\lib\Qt5Xmld.lib C:\Qt\5.3\msvc2013_64\lib\Qt5XmlPatternsd.lib C:\Qt\5.3\msvc2013_64\lib\Qt5MultimediaWidgetsd.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_shape320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_stitching320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_superres320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_videostab320d.lib C:\Qt\5.3\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt\5.3\msvc2013_64\lib\Qt5Multimediad.lib C:\Qt\5.3\msvc2013_64\lib\Qt5Guid.lib C:\Qt\5.3\msvc2013_64\lib\Qt5Networkd.lib C:\Qt\5.3\msvc2013_64\lib\Qt5Cored.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_objdetect320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_calib3d320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_features2d320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_flann320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_highgui320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_ml320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_photo320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_video320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_videoio320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_imgcodecs320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_imgproc320d.lib C:\opencv_3_2\build\x64\vc12\lib\opencv_core320d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/cplusplus/Desktop/projekte/qt/Day8/vc120/Debug/Day8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/cplusplus/Desktop/projekte/qt/Day8/vc120/Debug/Day8.lib" /MACHINE:X64  /machine:x64 /debug Day8.dir\Debug\displaywidget.obj
+         Day8.dir\Debug\filterwidget.obj
+         Day8.dir\Debug\main.obj
+         Day8.dir\Debug\mainwindow.obj
+         Day8.dir\Debug\sourcewidget.obj
+         Day8.dir\Debug\Day8_automoc.obj
+         Day8.vcxproj -> C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\Debug\Day8.exe
+     1>Die Erstellung des Projekts "C:\Users\cplusplus\Desktop\projekte\qt\Day8\vc120\Day8.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:03.48
